@@ -1,0 +1,6 @@
+framework module SBNPopoverController {
+  umbrella header "SBNPopoverController-umbrella.h"
+
+  export *
+  module * { export * }
+}

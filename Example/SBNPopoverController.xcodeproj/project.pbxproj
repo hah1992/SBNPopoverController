@@ -58,14 +58,14 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		84D4C2CCBA9BB02465B1C88A /* SBNPopoverController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SBNPopoverController.podspec; path = ../SBNPopoverController.podspec; sourceTree = "<group>"; };
+		84D4C2CCBA9BB02465B1C88A /* SBNPopoverController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SBNPopoverController.podspec; path = ../SBNPopoverController.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A088CB019B4C6146D059A68 /* Pods-SBNPopoverController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBNPopoverController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-SBNPopoverController_Example/Pods-SBNPopoverController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3D0742F44DCEE2998026FF8 /* Pods-SBNPopoverController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBNPopoverController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SBNPopoverController_Tests/Pods-SBNPopoverController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B3F884F5ABEF080231E46A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B3F884F5ABEF080231E46A9E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6A58263D588E4E1E3CF83FF /* Pods_SBNPopoverController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SBNPopoverController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D70C0C6F7E479C7E80445941 /* Pods-SBNPopoverController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBNPopoverController_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SBNPopoverController_Example/Pods-SBNPopoverController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DFE3F70FD790786D8CEE508C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DFE3F70FD790786D8CEE508C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EF6E77678DA700C55DA459DA /* Pods-SBNPopoverController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SBNPopoverController_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SBNPopoverController_Tests/Pods-SBNPopoverController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -251,6 +251,7 @@
 				ORGANIZATIONNAME = "黄安华";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 0820;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -568,6 +569,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBNPopoverController_Example.app/SBNPopoverController_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -588,6 +590,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SBNPopoverController_Example.app/SBNPopoverController_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
